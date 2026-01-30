@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Camp | AlvCompany</title>
+
+    <!-- CSS External File -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.jpg">
+            <span>AlvCompany</span>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#profile">Our Profile</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Message Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="first">
+        <h1 id="welcomeText">Hi, Guest</h1>
+        <p>With us, we build modern digital solutions</p>
+        <a href="#profile" class="btn">Learn More</a>
+    </section>
+
+    <!-- Profile -->
+    <section id="profile" class="panel">
+        <h2>About AlvCompany</h2>
+        <p>AlvCompany is a leading provider of digital solutions, specializing in web development, mobile applications, and IT consulting. 
+            Our team of experts is dedicated to delivering innovative and customized solutions that meet the unique needs of our clients.</p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Vision</h3>
+                <p>To be a trusted and innovative digital partner for businesses worldwide.</p>
+            </div>
+            <div class="card">
+                <h3>Mission</h3>
+                <ul>
+                    <li>Deliver quality solutions</li>
+                    <li>Focus on client satisfaction</li>
+                    <li>Continuous innovations</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio panel dark">
+    <h2>Our Portfolio</h2>
+    <div class="portfolio-grid">
+        <div class="portfolio-card">
+        <h3>E-Commerce Platform</h3>
+        <p>Enterprise-scale e-commerce solution for retail company.</p>
+        <span class="category">Web Development</span>
+        </div>
+        <div class="portfolio-card">
+        <h3>Mobile Banking App</h3>
+        <p>Secure mobile banking application for financial services.</p>
+        <span class="category">Mobile App</span>
+        </div>
+        <div class="portfolio-card">
+        <h3>Corporate Website</h3>
+        <p>Professional corporate website for technology company.</p>
+        <span class="category">Corporate Website</span>
+        </div>
+    </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="panel dark">
+        <h2>Message Us</h2>
+        <form id="messageForm">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div id="result"></div>
+    </section>
+
+    <footer>
+        <p>Thank you for visiting AlvCompany</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
